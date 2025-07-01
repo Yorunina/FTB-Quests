@@ -412,6 +412,7 @@ public abstract class BaseQuestFile extends QuestObject implements QuestFile {
 	@Override
 	public final void readData(CompoundTag nbt) {
 		super.readData(nbt);
+
 		defaultPerTeamReward = nbt.getBoolean("default_reward_team");
 		defaultTeamConsumeItems = nbt.getBoolean("default_consume_items");
 		defaultRewardAutoClaim = RewardAutoClaim.NAME_MAP_NO_DEFAULT.get(nbt.getString("default_autoclaim_rewards"));

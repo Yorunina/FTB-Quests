@@ -10,6 +10,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * The Emergency Items screen is now a lot more player-friendly
   * Instead of forcing the player to sit at the emergency items screen for the entire countdown, the timer now counts down while the player is outside the screen
 
+### Fixed
+* Fixed observation task progress still showing on screen after quest completion in some situations
+* Fixed a flexible-mode dependency checking bug (backported from 1.21.1)
+* Alt-clicking a quest link now opens the quest link's properties, not the original linked quest
+
 ## [2001.4.21]
 
 ### Fixed

@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2001.4.22]
+
+### Changed
+* The Emergency Items screen is now a lot more player-friendly
+  * Instead of forcing the player to sit at the emergency items screen for the entire countdown, the timer now counts down while the player is outside the screen
+
+### Fixed
+* Fixed observation task progress still showing on screen after quest completion in some situations
+* Fixed a flexible-mode dependency checking bug (backported from 1.21.1)
+* Alt-clicking a quest link now opens the quest link's properties, not the original linked quest
+
 ## [2001.4.21]
 
 ### Fixed
